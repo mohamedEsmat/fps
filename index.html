@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
-      <script type='text/javascript'>
- document.onmousedown = function() {window.focus();};
- </script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Fps-WebGl.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/FPS-Webgl.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
     <div class="webgl-content">
-        
-      <div id="unityContainer" style="width: 480px; height: 800px"></div>
+      <div id="unityContainer" style="width: 1080px; height: 1920px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">plana</div>
+        <div class="title">planb</div>
       </div>
     </div>
   </body>
